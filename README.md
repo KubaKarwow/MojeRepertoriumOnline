@@ -14,13 +14,13 @@ Interesting features of the application: email verification, password hashing, l
 
 ### Content Management
 
-#### Translates (Protected Features)
+#### Translates 
 - Create new translates (**Translator**)
 - Edit translates (**Translator**)
 - Delete translates (**Translator**)
 - Show all translates with pagination of the list (**Translator**)
 
-#### Languages  (Protected Features)
+#### Languages  
 - Assign one of the available languages to a translator(**Translator**)
 - Edit a language assigned to a translator(**Translator**)
 - Delete a language from the languages assigned to a translator(**Translator**)
@@ -35,7 +35,7 @@ Interesting features of the application: email verification, password hashing, l
 - Change translator information
 - Delete a translator from the system
 
-#### Translators and their work (TODO)
+#### Translators and their work 
 - View all translates of a translator with list pagination
 - Add a new translate record
 - Delete a translate record
