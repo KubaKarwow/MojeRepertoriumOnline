@@ -1,7 +1,7 @@
 # Moje Repertorium Online
 
-A modern blogging platform built with React, Node.js, and PostgreSQL, featuring user roles, content management, and interactive features.
 A basic implemention of a platform for translators to work more efficiently. Built with React, ASP.NET Core and MySQL.
+Interesting features of the application: email verification, password hashing, list pagination and many more.
 ## Features
 
 ### User Authentication & Authorization
