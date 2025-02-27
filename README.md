@@ -79,6 +79,7 @@ Interesting features of the application: email verification, password hashing, l
 
 ### Backend
 - ASP.NET Core
+- EntityFrameworkCore&LINQ for database communication
 - JSON Web Tokens (JWT) for authentication
 - System.Net.Mail for email handling during registration
 - Bcrypt for password hashing
