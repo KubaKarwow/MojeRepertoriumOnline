@@ -1,0 +1,253 @@
+
+
+.TitlePageTranslatorsAdmin{
+    display: flex;
+    align-items: center;
+    margin-left:30px;
+    margin-right:auto;
+    width: 100%;
+}
+
+.TitlePageAdmin{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-left:20px
+}
+.TitleAdmin{
+    color:#1E3A5F;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+.language-form {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.language-input {
+    width: 580px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+
+.languagesPart{
+    width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.buttonAdmin {
+    background-color: #1E3A5F;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+
+.buttonAdmin:hover {
+    background-color: #80C4E9;
+}
+.language-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00cfcf;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+    height: 60px;
+}
+
+.language-text {
+    font-size: 20px;
+    color:#1E3A5F;
+}
+.addButton{
+    background-color: #1E3A5F;
+    width: 500px;
+    height: 40px;
+    color: white;
+    border: none;
+    text-align: center;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.addButton:hover{
+    background-color: #80C4E9;
+
+}
+.LabelAndAddButton{
+    margin-top: 10px;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 30px;
+}
+
+.language-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-button, .delete-button, .save-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    transition: transform 0.2s;
+}
+
+.edit-button:hover,.save-button:hover, .delete-button:hover {
+    transform: scale(1.1);
+}
+.edit-input {
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.edit-input {
+    font-family: 'Inter', sans-serif;
+    background-color: #B0C4DE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+.namesPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.ItemsPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.userItem{
+    background-color: #00cfcf;
+    width: 600px;
+    height: 250px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.moduleName2{
+    color:#1E3A5F;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+
+    width: 600px;
+    margin-left: 7.5%;
+    margin-right: 12.5%;
+}
+.userInfoH{
+    color:#1E3A5F;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 10px;
+
+}
+.userInfoP{
+    color:#1E3A5F;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.connector{
+    color:#1E3A5F;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 70px;
+}
+.PaginationPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.edit-button2, .delete-button2, .save-button2 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: black;
+    transition: transform 0.2s;
+}
+
+.edit-button2:hover,.save-button2:hover, .delete-button2:hover {
+    transform: scale(1.1);
+}
+.buttonsPanelUser{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-left:35%;
+    margin-right:35%;
+    position: absolute;
+    bottom: 0;
+
+}
+.buttonsPanelTranslator{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 55px;
+}
+.forms{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.userInfoPart{
+    margin-left: 10px;
+    margin-top: 15px;
+}

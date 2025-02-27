@@ -1,0 +1,152 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #B0C4DE;
+}
+.LoginPage{
+    width: 40%;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top: 300px;
+    height: 40%;
+}
+.inputField {
+    font-family: 'Inter', sans-serif;
+    background-color: #B0C4DE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 60%;
+    margin-left:20%;
+    margin-right:20%;
+
+}
+
+.inputLabel {
+    font-family: 'Inter', sans-serif;
+    margin-top:10px;
+    text-align: left;
+    width: 200px;
+    font-size: 16px;
+    color: #1E3A5F;
+    margin-bottom: 6px;
+    margin-right:22%
+}
+
+.inputBox {
+    font-family: 'Inter', sans-serif;
+    background-color: #A9C6DB;
+    padding: 10px;
+    width: 337px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.inputBox:focus {
+    border-color: #4a90e2;
+}
+
+.supportText {
+    font-family: 'Inter', sans-serif;
+    width: 200px;
+    font-size: 12px;
+    color: #1E3A5F;
+    margin-top: 4px;
+}
+
+.inputField:hover .inputBox {
+    border-color: #4a90e2;
+}
+
+.registerButton {
+
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #1E3A5F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.registerButton:hover {
+    background-color: #80C4E9;
+}
+.button {
+    background-color: #1E3A5F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+
+.button:hover {
+    background-color: #80C4E9;
+}
+
+.Title{
+    color:#1E3A5F;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+}
+.headerPart{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.InfoText{
+    width: 650px;
+}
+.InformationPage{
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    margin-top: 300px;
+}
+.ButtonList{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.ButtonListInfo{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.ButtonListRegister{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}

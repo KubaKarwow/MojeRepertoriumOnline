@@ -1,0 +1,158 @@
+.buttonUser {
+    background-color: #1E3A5F;
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+
+.buttonUser:hover {
+    background-color: #80C4E9;
+}
+
+.language-form3 {
+    margin-bottom: 15px;
+    background-color: darkcyan;
+    border-radius: 15px;
+    background-size: 50px 50px;
+    background-repeat: repeat;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:10px
+}
+.edit-input2 {
+    font-family: 'Inter', sans-serif;
+    background-color: #B0C4DE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.addTranslateButton{
+    background-color: #1E3A5F;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 40px;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.addTranslateButton:hover{
+    background-color: #80C4E9;
+}
+.edit-input-select {
+    font-family: 'Inter', sans-serif;
+    background-color: #B0C4DE;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.date-input {
+    font-family: 'Inter', sans-serif;
+    background-color: #B0C4DE;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.date-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.buttonsPanelTranslator2 {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+.translateItem{
+    background-color: #00cfcf;
+    width: 600px;
+    height: 150px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    position: relative;
+    transition: height 0.3s ease-in-out;
+}
+.translateItemLarge{
+    background-color: #00cfcf;
+    width: 600px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    transition: height 0.3s ease-in-out;
+}
+
+.language-form-edit{
+    border-radius: 15px;
+    background-size: 50px 50px;
+    background-repeat: repeat;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:10px;
+    padding-top: 10px;
+}
+.userItems{
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-size: 50px 50px;
+    background-repeat: repeat;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:10px
+}
+.PaginationPart2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin-left:auto;
+    margin-right:auto;
+}

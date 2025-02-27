@@ -1,0 +1,91 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.inputField {
+    background-color: #B0C4DE;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.inputLabel {
+    margin-top:10px;
+    text-align: left;
+    width: 200px;
+    font-size: 16px;
+    color: #959393;
+    margin-bottom: 6px;
+}
+
+.inputBox {
+    background-color: #A9C6DB;
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.inputBox:focus {
+    border-color: #4a90e2;
+}
+
+.supportText {
+    width: 200px;
+    font-size: 12px;
+    color: #959393;
+    margin-top: 4px;
+}
+
+.inputField:hover .inputBox {
+    border-color: #4a90e2;
+}
+.ButtonList{
+
+    display: flex;
+    margin-left: 35px;
+    margin-right: 50px;
+    margin-top: 20px;
+    width: auto;
+}
+.button {
+    background-color: #1E3A5F; /* Zielony kolor tła */
+    color: white; /* Kolor tekstu */
+    border: none; /* Bez obramowania */
+    padding: 10px 20px; /* Padding wewnętrzny */
+    text-align: center; /* Wyrównanie tekstu */
+    text-decoration: none; /* Brak podkreślenia */
+    display: inline-block; /* Ustawienie jako element wiersza */
+    font-size: 16px; /* Rozmiar czcionki */
+    margin: 4px 10px 4px 10px; /* Margines wokół guzika */
+    cursor: pointer; /* Zmieniony kursor */
+    border-radius: 8px; /* Zaokrąglone rogi */
+    transition: background-color 0.3s ease; /* Animacja zmiany tła */
+}
+
+/* Styl guzika po najechaniu */
+.button:hover {
+    background-color: #80C4E9; /* Ciemniejszy zielony przy hoverze */
+}
+
+.Title{
+    color:#1E3A5F;
+    font-family: 'Inter', sans-serif;
+    width: 406px;
+    margin: 0 auto;
+
+    font-size: 46px;
+    font-weight: bold;
+}
+.LoginPage{
+    justify-content: center; /* Centruje w poziomie */
+
+    background-color: #B0C4DE;
+    width: 467px;
+}
